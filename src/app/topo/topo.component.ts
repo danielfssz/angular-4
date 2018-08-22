@@ -10,5 +10,9 @@ import { Component } from "@angular/core";
 })
 
 export class TopoComponent {
+    /**
+     * One way data bind - coloco no componente a propriedade da classe entre {{nomeDaPropriedade}}
+     */
+    public titulo: String = "String interlation";
 
 }
